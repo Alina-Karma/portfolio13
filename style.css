@@ -247,12 +247,15 @@ h3 {
     height: 40px;
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 
 .work{
     display: flex;
     border-bottom: 2px solid #E0E0E0; 
+    padding-top: 30px;
+
 }
 
 
@@ -271,18 +274,20 @@ h3 {
     flex-shrink: 0;
     overflow: hidden;
     margin-right: 28px;
-    margin-bottom: 72px;
+    margin-bottom: 25px;
 }
 
 .work__date{
     border-radius: 16px;
-    background-color: rgb(15, 15, 15);
+    background: #142850;
     color: whitesmoke;
     margin-right: 25px;
 min-width: 62px;
 font-size: 18px;
 font-weight: 900;
 text-align: center;
+margin-bottom: 10px;
+
 
 }
 
@@ -294,4 +299,32 @@ text-align: center;
     color: grey;
 }
 
+.work__img-wrap{
+ max-width: 246px;
+    overflow: hidden;
+    min-height: 180px;
+    flex-shrink: 0;
+}
 
+.work__img{
+    height: 100% ;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 6px;
+}
+ 
+@media (max-width:480) {
+    .featured__works{
+        display: flex;
+    }
+    .featured__container{
+        width: 95%;
+    }
+    .work{
+        flex-direction: column;
+        flex: 0 0 100%;
+    }
+    .work__img-wrap{
+        
+    }
+}
