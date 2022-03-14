@@ -194,6 +194,10 @@ h3 {
     margin: 0;
 }
 
+.recent-posts__link{
+ color: #00A8CC;
+}
+
 .about__desc {
     padding-bottom: 30px;
 }
@@ -312,6 +316,10 @@ margin-bottom: 10px;
     width: 100%;
     border-radius: 6px;
 }
+
+.text__footer {
+    text-align: center;
+  }
  
 @media (max-width:480) {
     .featured__works{
@@ -327,4 +335,8 @@ margin-bottom: 10px;
     .work__img-wrap{
         
     }
+}
+
+.work__text{
+    margin-bottom: 10px;
 }
